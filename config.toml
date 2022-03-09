@@ -58,7 +58,7 @@ weight = 3
 
   Prior to coming to UMD, I worked as a lab assistant and graduate student with [Dr. Dave Kleinschmidt](http://davekleinschmidt.com) in the Department of Psychology at Rutgers University.
 
-  My research focuses on computational modeling of speech perception and learning (and occasionally behavioral and neuroimaging experiments). For my first year research project, I am exploring a compuational cognitive model of second language speech acquisition.
+  My research focuses on computational modeling of speech perception and learning (and occasionally behavioral and neuroimaging experiments). For my first year research project, I am exploring a computational cognitive model of second language speech acquisition.
   """ 
   
   mainSection = "posts" # your main section
