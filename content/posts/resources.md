@@ -17,6 +17,8 @@ The following is a list of various resources I've collected over the years. This
 #### Praat
 As we are all aware, using Praat can be a pain, so here are a few collections of useful scripts I've found
 
+* first and foremost, a collection maintainied by Joe Toscano can be found on this [website](https://sites.google.com/site/praatscripts/)
+* here are some [scripts](http://www.mattwinn.com/praat.html) from Matt Winn (you can find quite a few useful links from his site as well)
 * some [links](http://phonetics.linguistics.ucla.edu/facilities/acoustic/praat.html) from the phonetics lab at UCLA
 * this [excellent tutorial](http://joeystanley.com/blog/a-tutorial-on-extracting-formants-in-praat) on extracting formants with a praatscript by Joey Stanley
 * and another [collection of handy scripts](https://www.acsu.buffalo.edu/~cdicanio/scripts.html) from Christian DiCanio
