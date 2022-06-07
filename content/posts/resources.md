@@ -29,7 +29,7 @@ As we are all aware, using Praat can be a pain, so here are a few collections of
 Tandem Straight is a speech modification tool that is a re-engineering of the original STRAIGHT by Dr. Hideki Kawahara. It's fairly handy if you need to synthesize some stimuli. It's beneficial in that it is able to morph along several different dimensions and maintains a fairly natural quality.
 
 * currently the [best guide](https://memcauliffe.com/straight_workshop/) I’ve seen, by Michael McAuliffe
-* or if you’re interested in doing multiple talker morphing - check out my quick [tutorial](https://github.com/joselyn-rodriguez/TandemStraight/blob/master/3morph_tutorial.md)
+* or if you’re interested in doing multiple talker morphing - check out my quick [tutorial](https://joselyn-rodriguez.github.io/TandemStraight/3waymorph.html)
 * or head straight to the source, Dr. Hideki Kawahara’s [homepage](http://web.wakayama-u.ac.jp/~kawahara/index-e.html)
 
 #### Lab.js
