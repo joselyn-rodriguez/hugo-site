@@ -55,10 +55,12 @@ weight = 3
   I'm a first year PhD student in Neuroscience and Cognitive Science at the University of Maryland. 
   I'm housed in the Department of Linguistics and am advised by [Dr. Naomi Feldman](http://users.umiacs.umd.edu/~nhf/) and [Dr. Bill Idsardi](https://wjidsardi.net/). 
 
-
   Prior to coming to UMD, I worked as a lab assistant and graduate student with [Dr. Dave Kleinschmidt](http://davekleinschmidt.com) in the Department of Psychology at Rutgers University.
 
   My research focuses on computational modeling of speech perception and learning (and occasionally behavioral and neuroimaging experiments). For my first year research project, I am exploring a computational cognitive model of second language speech acquisition.
+  
+  I'm joined at UMD with the other members of my cohort, [Katherine Howitt](https://www.katherinehowitt.com/research), Jingyi Chen, London Dixon, Fëdor Golosov, Zulfiyya Aghakishiyeva.
+  
   """ 
   
   mainSection = "posts" # your main section
