@@ -30,6 +30,7 @@ draft: false
         
     ![Screen Shot 2023-01-13 at 10.39.12 AM.png](/images/Screen_Shot_2023-01-13_at_10.39.12_AM.png)
 
+
     - we can start our local server right away so we can see changes as we make them. In your terminal in the main directory of your folder, type 
 
     ```bash
@@ -38,7 +39,6 @@ draft: false
     - this will start your local server so we can see our changes as we make them. Go to your local server (generally it's just http://localhost:1313/) (it should be a blank page for now!)
 
     ![Screen Shot 2023-01-16 at 7.24.05 PM.png](/images/Screen_Shot_2023-01-16_at_7.24.05_PM.png)
-
 
 
 - let’s take a closer look at the config.toml file
@@ -78,7 +78,7 @@ draft: false
     
     ```
 
-    - let's go ahead and open the file itself again using 
+    - let's go ahead and open the file itself again using (you can also open all this in a text editor)
 
     ```bash
     nano config.toml
@@ -99,8 +99,8 @@ draft: false
     publishDir = 'docs' # this line is important for github pages!
     ```
 
-    - The next part is specific to the theme you're using
-      
+
+- Theme specifics      
     - You have to take a close look at the instructions for the theme that you want to use, different themes make use of different ways of putting a site together.
         - what is necessary in the config file? Generally the theme instructions will tell you. Here, we're told to look at the [example config file](https://github.com/hugcis/hugo-astatine-theme/blob/master/exampleSite/config.toml/) (copied below)
         - we only need to copy from line 14 down. 
@@ -198,14 +198,14 @@ draft: false
         filename = "sitemap.xml"
         ```
         
-    - This site is still missing some things though. If you look in content, nothing is there yet! The theme instructions tell us we need to add in a landing page. 
+    - This site is still missing some things though. If you look in content, nothing is there yet! The theme instructions tell us we need to add in an index page. 
+
     - navigate to the content folder and create a new file there using 
     ```bash 
     touch _index.md
     ``` 
 
-    
-    - in Hugo, files that start with "_" are special files that are generally used as a landing page for a given set of pages. This theme uses it to display our main content page but every content folder will have it's one `_index.md` file.
+    - in Hugo, files that start with "_" are special files that are generally used as a index page for a given set of pages (or like a sort of landing page). This theme uses it to display our main content page but every content folder will have it's one `_index.md` file.
 
     - while we're here, let's also make ourselves a posts folder by typing
 
@@ -215,7 +215,7 @@ draft: false
 
     - Once you created the `_index.md` file using `touch` populate the file with the following [content](https://raw.githubusercontent.com/hugcis/hugo-astatine-theme/master/exampleSite/content/_index.md):
 
-    - Notice the three `---` lines in the file enclosing some content. This is indicating that it is front matter, special metadata, embedded inside of the content file. This content isn't necessarily displayed on the page unless it is being called somewhere else in the html files (which it is! in this file in your directory: themes/astatine/layouts/partials/info.html)
+    - Notice the three `---` lines in the file enclosing some content. This is indicating that it is yaml front matter, special metadata, embedded inside of the content file. This content isn't necessarily displayed on the page unless it is being called somewhere else in the html files (which it is! in this file in your directory: themes/astatine/layouts/partials/info.html)
 
 ```html
 <div class="head container grid sm:grid-cols-2 grid-cols-1
@@ -288,22 +288,21 @@ draft: false
     hugo new posts/{name of post}.md
     ```
 - all the posts are going to be written in markdown. You can refer to any [markdown guide](https://www.markdownguide.org/basic-syntax/)
-- use any texteditor to edit these files
-- you can set `draft = true` if you don't want to publish pages immediately!
+    - you can set `draft = true` if you don't want to publish pages immediately
+    - use any text editor to edit these files (textedit, vscode)
 
 - In general, every theme is going to be different since people use different methods. 
     - For example, some things you might see:
         - different CSS packages (using bootstrap, tailwindcss, etc) which will require additional downloads and preparation on your part.
-    - In general, take a look at the example site and understand the structure that the creator of the site has established
+    - Take a look at the example site and understand the structure that the creator of the site has established
         - you’ll likely need to have index files for each of the main subfolders defining the landing page for that section
             - in the main folder: config.toml
             - in the content folder: _index.md
 
-
 - when you’re ready to build your static pages that will be hosted, you will run the following code to build our html files to host on github. 
 
 ```bash
-hugo # yes that's it!
+hugo # yes that's all!
 ```
 
 - once everything is run and you’re ready to launch the site, you proceed to the next step which is preparing your github page.
@@ -324,7 +323,7 @@ hugo # yes that's it!
 
         
 - After that, we need to setup our github pages and activate it on this repo.
-    - Go to settings, below code an automation, click on “Pages”
+    - Go to settings, below "code and automation", click on “Pages”
         
         ![Screen Shot 2023-01-15 at 9.34.34 PM.png](/images/Screen_Shot_2023-01-15_at_9.34.34_PM.png)
         
@@ -368,6 +367,10 @@ hugo # yes that's it!
         - https://gohugo.io/templates/introduction/
         - https://cloudcannon.com/community/learn/hugo-beginner-tutorial/
             - this is a whole tutorial but goes into templating nicely
+    - more on templating syntax
+        - https://gohugo.io/variables/
+        - https://gohugo.io/functions/
+    
     - deploying hugo on different sites
         - https://gohugo.io/hosting-and-deployment/
             - I use and highly recommend using netlify
