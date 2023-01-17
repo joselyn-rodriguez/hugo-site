@@ -307,6 +307,23 @@ hugo # yes that's all!
 
 - once everything is run and you’re ready to launch the site, you proceed to the next step which is preparing your github page.
 
+#### Thing to note
+
+- to add a cv as a link in the nav, go to your `config.toml` file and instead of directing to a local directory (like /page/ or /about/), just direct it to your static file in static/files/cv.pdf (but only include `/files/cv.pdf` since you don't need to include the "static")
+
+_for example_ 
+
+```toml
+[[menu.main]]
+name = "cv"
+url = "/files/cv.pdf"
+weight = 3
+
+```
+
+- everything on this site is editable. You downloaded a theme, but there's nothing stopping you from editing that theme. Don't like the colors? the fonts? the arrangement of the site? go crazy!
+
+
 
 ### Setting up the github pages host:
 
