@@ -207,10 +207,12 @@ draft: false
 
     - in Hugo, files that start with "_" are special files that are generally used as a index page for a given set of pages (or like a sort of landing page). This theme uses it to display our main content page but every content folder will have it's one `_index.md` file.
 
-    - while we're here, let's also make ourselves a posts folder by typing
+    - while we're here, let's also make ourselves a posts folder by typing and adding an _index.md file with front mattter parameter of title=posts
 
     ```bash
     mkdir posts
+    cd posts
+    touch _index.md
     ```
 
     - Once you created the `_index.md` file using `touch` populate the file with the following [content](https://raw.githubusercontent.com/hugcis/hugo-astatine-theme/master/exampleSite/content/_index.md):
@@ -328,7 +330,7 @@ weight = 3
 ### Setting up the github pages host:
 
 - assuming that you have a github account set up, create a new repository.
-    - if you’d like to use your username, then you should name the repository the same as your username (for example: {username}.github.io) but any repository name will work
+    - if you’d like to use your username, then you should name the repository the same as your username but any repository name will work
         
         ![Screen Shot 2023-01-15 at 9.26.33 PM.png](/images/Screen_Shot_2023-01-15_at_9.26.33_PM.png)
         
