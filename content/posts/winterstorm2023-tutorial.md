@@ -9,7 +9,7 @@ draft: false
 
 1. need homebrew installed (for Mac)
     1. need to install Hugo
-2. (opt. need to make a netlify account)
+2. (optionally need to make a netlify account)
 3. need a github account
 
 ### Setting things up locally:
@@ -283,6 +283,14 @@ draft: false
 
 - If you want to change the pictures, you just need to add some new pics in the `static/` folder and then update the link in the `_index.md` file!
 
+- to make new posts, you can go to your main directory then type 
+```bash
+hugo new posts/{name of post}.md
+```
+    - all the posts are going to be written in markdown. You can refer to any [markdown guide](https://www.markdownguide.org/basic-syntax/)
+    - use any texteditor to edit these files
+    - you can set `draft = true` if you don't want to publish pages immediately!
+
 - In general, every theme is going to be different since people use different methods. 
     - For example, some things you might see:
         - different CSS packages (using bootstrap, tailwindcss, etc) which will require additional downloads and preparation on your part.
@@ -333,7 +341,7 @@ hugo # yes that's it!
         git branch -M main
         git remote add origin {whatever your git repo is}
         git push -u origin main
-         ```
+        ```
 
 - Once that is set, you can check whether it launched correctly by clicking on the link for your page
     
