@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on joselyn rodriguez</title>
+    <link>https://joselynrodriguez.com/posts/</link>
+    <description>Recent content in Posts on joselyn rodriguez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>jmr</copyright>
+    <lastBuildDate>Mon, 21 Oct 2019 12:17:15 -0400</lastBuildDate><atom:link href="https://joselynrodriguez.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resources</title>
+      <link>https://joselynrodriguez.com/posts/resources/</link>
+      <pubDate>Mon, 21 Oct 2019 12:17:15 -0400</pubDate>
+      
+      <guid>https://joselynrodriguez.com/posts/resources/</guid>
+      <description>Resources for speech and language-focused cognitive scientists! The following is a list of various resources I&amp;rsquo;ve collected over the years. This is mainly for my own reference, but please don&amp;rsquo;t hesitate to contact me should any of these links no longer work or if you have additional questions.
+Statistics  Hadley Wickham&amp;rsquo;s &amp;ldquo;R for Data Science&amp;rdquo;, a course in R and the tidyverse, is a definite must as a quick (not necessarily painless) introduction to statistics with R.</description>
+    </item>
+    
+    <item>
+      <title>What is the Critical Language Scholarship</title>
+      <link>https://joselynrodriguez.com/posts/cls-exp/</link>
+      <pubDate>Fri, 18 Oct 2019 10:56:06 -0400</pubDate>
+      
+      <guid>https://joselynrodriguez.com/posts/cls-exp/</guid>
+      <description>Ok, so what is the Critical Language Scholarship? If you&amp;rsquo;re here and you don&amp;rsquo;t know what the U.S. State Dept.&amp;rsquo;s Critical Language Scholarship is - don&amp;rsquo;t worry, you&amp;rsquo;re not alone. The CLS is a language scholarship that&amp;rsquo;s offered by the U.S. State Department for students (undergraduate or graduate) to study a foreign language in a foreign country where that language is spoken. Since this is a government-funded program, it&amp;rsquo;s not too surprising that the languages offered are &amp;ldquo;critical&amp;rdquo; in the diplomatic sense - Arabic, Hindi, Urdu, Punjabi, Russian, Azerbaijani, Chinese, etc).</description>
+    </item>
+    
+  </channel>
+</rss>
