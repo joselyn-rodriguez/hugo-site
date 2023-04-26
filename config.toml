@@ -61,6 +61,10 @@ weight = 3
   
   I'm joined at UMD by the other members of my linguistics cohort, [Katherine Howitt](https://www.katherinehowitt.com/research), Jingyi Chen, [London Dixon](https://www.londondixon.com/) , Fëdor Golosov, Zulfiyya Aghakishiyeva.
   
+
+  What do you listen to while you work? Share your favorite songs that inspire your work here: "rhythm.to.mind@gmail.com"
+
+
   """ 
   
   mainSection = "posts" # your main section
@@ -69,6 +73,7 @@ weight = 3
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = true # show tags overview by default.
   showProjectsList = false # show projects list by default (if projects data file exists).
+
 #   projectsUrl = "https://github.com/gohugoio" # title link for projects list
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
@@ -101,3 +106,6 @@ weight = 3
   [[params.social]]
     name = "email"
     link = "jrodri20@umd.edu"  # no need for "mailto:" in the heads
+  [[params.social]]
+    name = "music"
+    link = "https://open.spotify.com/user/cho_seul_lin?si=ba2c72321e1948e7"
