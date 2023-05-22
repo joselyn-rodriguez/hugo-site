@@ -108,5 +108,5 @@ weight = 3
     name = "email"
     link = "jrodri20@umd.edu"  # no need for "mailto:" in the heads
   [[params.social]]
-    name = "music"
+    name = "spotify"
     link = "https://open.spotify.com/user/cho_seul_lin?si=ba2c72321e1948e7"
