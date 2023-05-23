@@ -69,7 +69,7 @@ weight = 3
   """ 
   
   mainSection = "posts" # your main section
-  mainSectionTitle = "blog"
+  mainSectionTitle = "."
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 0 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = true # show tags overview by default.
