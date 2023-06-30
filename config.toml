@@ -16,10 +16,10 @@ name = "blog"
 url = "/posts"
 weight = 2
 
-[[menu.main]]
-name = "music"
-url = "/music/playlisting/"
-weight = 4
+# [[menu.main]]
+# name = "music"
+# url = "/music/playlisting/"
+# weight = 4
 
 [[menu.main]]
 name = "cv"
@@ -52,7 +52,7 @@ weight = 3
   # Home page settings
   description = """
 
-  I'm a third(!) year PhD student in Neuroscience and Cognitive Science at the University of Maryland. 
+  I'm a third year PhD student in Neuroscience and Cognitive Science at the University of Maryland. 
   I'm housed in the Department of Linguistics and am advised by [Dr. Naomi Feldman](http://users.umiacs.umd.edu/~nhf/) and [Dr. Bill Idsardi](https://wjidsardi.net/). 
 
   Prior to coming to UMD, I worked as a lab assistant and graduate student with [Dr. Dave Kleinschmidt](http://davekleinschmidt.com) in the Department of Psychology at Rutgers University.
@@ -61,15 +61,10 @@ weight = 3
   How do we learn a second language? How is this process different than how we learn our first language?
   
   I'm joined at UMD by the other members of my linguistics cohort, [Katherine Howitt](https://www.katherinehowitt.com/research), Jingyi Chen, [London Dixon](https://www.londondixon.com/) , Fëdor Golosov, Zulfiyya Aghakishiyeva.
-  
-  What do you listen to while you work? Share your favorite songs that inspire your work here: rhythm [dot] to [dot] mind [at] gmail [dot] com
-  
-  See the [Spotify playlist](https://open.spotify.com/playlist/38k2CaP5XrUX7qSkd8CUyp?si=0e30b4b57b194ed0). 
-
   """ 
   
   mainSection = "posts" # your main section
-  mainSectionTitle = "."
+  mainSectionTitle = "..."
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 0 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = true # show tags overview by default.
