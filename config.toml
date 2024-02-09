@@ -12,19 +12,24 @@ url = "/"
 weight = 1
 
 [[menu.main]]
+name = "research"
+url = "/research"
+weight = 2
+
+[[menu.main]]
 name = "blog"
 url = "/posts"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "cv"
 url = "/files/cv.pdf"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "misc"
 url = "/music/playlisting/"
-weight = 4
+weight = 5
 
 [markup]
   [markup.tableOfContents]
@@ -44,7 +49,7 @@ weight = 4
 
 [params]
 
-  colortheme = "light" # dark, light, white, or classic
+  colortheme = "classic" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive = false # default
