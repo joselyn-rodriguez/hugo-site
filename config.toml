@@ -16,15 +16,15 @@ name = "blog"
 url = "/posts"
 weight = 2
 
-# [[menu.main]]
-# name = "music"
-# url = "/music/playlisting/"
-# weight = 4
-
 [[menu.main]]
 name = "cv"
 url = "/files/cv.pdf"
 weight = 3
+
+[[menu.main]]
+name = "misc"
+url = "/music/playlisting/"
+weight = 4
 
 [markup]
   [markup.tableOfContents]
@@ -44,7 +44,7 @@ weight = 3
 
 [params]
 
-  colortheme = "classic" # dark, light, white, or classic
+  colortheme = "light" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive = false # default
@@ -52,7 +52,7 @@ weight = 3
   # Home page settings
   description = """
 
-  I'm a third year PhD student in Neuroscience and Cognitive Science at the University of Maryland. 
+  Hi! I'm a third year PhD student in Neuroscience and Cognitive Science at the University of Maryland. 
   I'm housed in the Department of Linguistics and am advised by [Dr. Naomi Feldman](http://users.umiacs.umd.edu/~nhf/) and [Dr. Bill Idsardi](https://wjidsardi.net/). 
 
   Prior to coming to UMD, I worked as a lab assistant and graduate student with [Dr. Dave Kleinschmidt](http://davekleinschmidt.com) in the Department of Psychology at Rutgers University.
