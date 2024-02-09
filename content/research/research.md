@@ -1,5 +1,5 @@
 ---
-title: "playlisting"
+title: "publications"
 date: 2024-02-09T15:20:08Z
 draft: false
 ---
