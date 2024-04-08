@@ -9,6 +9,6 @@ Outside of research, I spend most of my time on music: exploring local venues an
 ### WMUC 90.5 College Park
 WMUC is the University of Maryland's freeform radio station that has been around since 1979.
 
-- I'm currently hosting my radio show [crying in spanish] on [WMUC-Digital](https://wmuc.umd.edu/) where I explore the rich musical landscape of South America, focusing on indie rock, hardcore, and electronica 
+- I'm currently hosting my radio show [crying in spanish] on [WMUC-Digital](https://wmuc.umd.edu/) on Saturdays at 11am where I explore the rich musical landscape of South America, focusing on indie rock, hardcore, and electronica 
 - Writing:
     - Wrote some [album reviews](https://wmuc.umd.edu/ghost-site/aoty-2023/) for the radio's 2023 end of the year list!
