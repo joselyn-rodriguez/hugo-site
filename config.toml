@@ -26,10 +26,10 @@ name = "cv"
 url = "/files/cv.pdf"
 weight = 4
 
-[[menu.main]]
-name = "misc"
-url = "/music/playlisting/"
-weight = 5
+# [[menu.main]]
+# name = "misc"
+# url = "/music/playlisting/"
+# weight = 5
 
 [markup]
   [markup.tableOfContents]
