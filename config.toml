@@ -57,15 +57,14 @@ weight = 4
   # Home page settings
   description = """
 
-  Hi! I'm a third year PhD student in Neuroscience and Cognitive Science at the University of Maryland. 
+  Hi! I'm a fourth year PhD student (graduating 2026) in Neuroscience and Cognitive Science at the University of Maryland. 
   I'm housed in the Department of Linguistics and am advised by [Dr. Naomi Feldman](http://users.umiacs.umd.edu/~nhf/) and [Dr. Bill Idsardi](https://wjidsardi.net/). 
 
-  Prior to coming to UMD, I worked as a lab assistant and graduate student with [Dr. Dave Kleinschmidt](http://davekleinschmidt.com) in the Department of Psychology at Rutgers University.
-
-  My research focuses on computational modeling of speech perception and learning (and occasionally behavioral and neuroimaging experiments). The questions that interest me most are those surrounding second language acquisition.
-  How do we learn a second language? How is this process different than how we learn our first language?
+  My research focuses on undertanding speech perception and learning using computational and behavioral methods. \
+  The questions that interest me most are those surrounding second language acquisition. \
+  How do we learn a second language as an adult? How is this process different than how we learn our first language(s)? \
   
-  I'm joined at UMD by the other members of my linguistics cohort, [Katherine Howitt](https://www.katherinehowitt.com/research), Jingyi Chen, [London Dixon](https://www.londondixon.com/) , Fëdor Golosov, Zulfiyya Aghakishiyeva.
+  I'm joined at UMD by the other fantastic members of my linguistics cohort, [Katherine Howitt](https://www.katherinehowitt.com/research), Jingyi Chen, [London Dixon](https://www.londondixon.com/) , Fëdor Golosov, Zulfiyya Aghakishiyeva.
   """ 
   
   mainSection = "posts" # your main section
