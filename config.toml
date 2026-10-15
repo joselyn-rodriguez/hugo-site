@@ -1,6 +1,6 @@
 title = "joselyn rodriguez"
 baseURL = "https://joselynrodriguez.com"
-theme = "not-much"
+theme = "cactus"
 copyright = "jmr" # cactus will use title if copyright is not set
 
 # summaryLength = 2
