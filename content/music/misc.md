@@ -4,11 +4,10 @@ date: 2023-05-22T15:20:08Z
 draft: false
 ---
 
-Outside of research, I spend most of my time on music: exploring local venues and bands, getting involved at the University of Maryland's student run radio station, [WMUC 90.5](https://wmuc.umd.edu/), and writing (bad) electronica. 
+Outside of research, I spend most of my time on music: exploring local venues and bands and getting involved with whatever radio stations are around. 
 
-### WMUC 90.5 College Park
-WMUC is the University of Maryland's freeform radio station that has been around since 1979! 
+At the University of Maryland, I was part of the student run radio station, [WMUC 90.5](https://wmuc.umd.edu/) where I hosted the show _shut up and listen_ where I played experimental electronica and electronic and synt pop from around the world. 
 
-- I'm currently hosting my radio show "shut up and listen" on [WMUC-FM College Park 90.5FM](https://wmuc.umd.edu/listen) on Fridays 4-5pm where I explore the rich musical landscape of (international) synth pop and electronica
-- Writing:
-    - Wrote some [album reviews](https://wmuc.umd.edu/ghost-site/aoty-2023/) for the radio's 2023 end of the year list!
+Take a listen to their current programing here: [WMUC-FM College Park 90.5FM](https://wmuc.umd.edu/listen)
+
+I also wrote some [album reviews](https://wmuc.umd.edu/ghost-site/aoty-2023/) for the radio's 2023 end of the year list. 

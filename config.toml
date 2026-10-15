@@ -1,6 +1,6 @@
 title = "joselyn rodriguez"
 baseURL = "https://joselynrodriguez.com"
-theme = "cactus"
+theme = "not-much"
 copyright = "jmr" # cactus will use title if copyright is not set
 
 # summaryLength = 2
@@ -57,14 +57,16 @@ weight = 5
   # Home page settings
   description = """
 
-  Hi, I'm a fifth year PhD student (graduating Summer 2026) in Neuroscience and Cognitive Science at the University of Maryland. 
-  I'm housed in the Department of Linguistics and am advised by [Dr. Naomi Feldman](http://users.umiacs.umd.edu/~nhf/) and [Dr. Bill Idsardi](https://wjidsardi.net/). 
-
-  My research focuses on understanding speech perception and learning using computational and behavioral methods. \
-  The questions that interest me most are those surrounding second language acquisition. \
-  How do we learn a second language as an adult? How is this process different than how we learn our first language(s)? \
+  Hi, I'm a postdoctoral research fellow in the Department of Linguistics at the University of Michigan.
   
-  I'm joined at UMD by the other fantastic members of my linguistics cohort, [Katherine Howitt](https://www.katherinehowitt.com/research), Jingyi Chen, [London Dixon](https://www.londondixon.com/) , Fëdor Golosov, Zulfiyya Aghakishiyeva.
+  I completed my PhD in Neuroscience and Cognitive Science at the University of Maryland in the Department of Linguistics and was advised by [Dr. Naomi Feldman](http://users.umiacs.umd.edu/~nhf/) and [Dr. Bill Idsardi](https://wjidsardi.net/). 
+
+  My research focuses on understanding speech perception and learning. I use whatever methods I feel are suited for the task at hand, which has thus far included behavioral experiments and computational modeling. 
+
+  The questions that interest me most are those surrounding the structure of representations and learning, specifically as they relate to sound. What is the structure of phonological representations, how are they learned, and and how do they change with exposure to new languages? I think that second language acquisition and bilingualism provide an exciting test case to evaluate these questions. 
+  
+  I was lucky to complete my PhD with a fantastic linguistics cohort. You can find them here: [Katherine Howitt](https://www.katherinehowitt.com/research), Jingyi Chen, [London Dixon](https://www.londondixon.com/) , Fëdor Golosov, Zulfiyya Aghakishiyeva.
+  
   """ 
   
   mainSection = "posts" # your main section
@@ -105,7 +107,7 @@ weight = 5
     link = "https://www.linkedin.com/in/joselyn-rodriguez/"
   [[params.social]]
     name = "email"
-    link = "jrodri20@umd.edu"  # no need for "mailto:" in the heads
+    link = "joselynr@umich.edu"  # no need for "mailto:" in the heads
   [[params.social]]
     name = "spotify"
     link = "https://open.spotify.com/user/cho_seul_lin?si=ba2c72321e1948e7"
