@@ -1,17 +1,16 @@
-[build]
-  command = "hugo --gc --minify -b $URL"
-  publish = "public"
-
 [build.environment]
-  HUGO_VERSION = "0.83.1"
-  HUGO_ENABLEGITINFO = "true"
-  GIT_LFS_ENGABLED = "true"
+GO_VERSION = "1.27.3"
+HUGO_VERSION = "0.169.0"
+NODE_VERSION = "24.22.1"
+TZ = "Europe/Oslo"
 
-[context.production.environment]
-  HUGO_ENV = "production"
+[build]
+publish = "public"
+command = """\
+  git config --global core.quotepath false && \
+  hugo build --gc --minify --baseURL "${URL}"
+  """
 
-[context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
