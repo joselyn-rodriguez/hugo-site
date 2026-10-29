@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Joselyn Rodriguez</title>
+		<link>http://localhost:1313/music/</link>
+		<description>Recent content on Joselyn Rodriguez</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+			<copyright>Sample custom notice © {year}</copyright>
+		
+		
+			<lastBuildDate>Mon, 22 May 2023 15:20:08 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/music/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>misc</title>
+				<link>http://localhost:1313/music/misc/</link>
+				<pubDate>Mon, 22 May 2023 15:20:08 +0000</pubDate>
+				<guid>http://localhost:1313/music/misc/</guid>
+				<description>&lt;p&gt;Outside of research, I spend most of my time on music: exploring local venues and bands and getting involved with whatever radio stations are around.&lt;/p&gt;&#xA;&lt;p&gt;At the University of Maryland, I was part of the student run radio station, &lt;a href=&#34;https://wmuc.umd.edu/&#34;&gt;WMUC 90.5&lt;/a&gt; where I hosted the show &lt;em&gt;shut up and listen&lt;/em&gt; where I played experimental electronica and electronic and synt pop from around the world.&lt;/p&gt;&#xA;&lt;p&gt;Take a listen to their current programing here: &lt;a href=&#34;https://wmuc.umd.edu/listen&#34;&gt;WMUC-FM College Park 90.5FM&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

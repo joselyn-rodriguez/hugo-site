@@ -1,8 +1,12 @@
 ---
 title: "What is the Critical Language Scholarship"
 date: 2019-10-18T10:56:06-04:00
+description: "Information about the CLS scholarship"
+keywords: ["CLS", "Blog", "advice"]
 draft: false
+summary: If you're here and you don't know what the U.S. State Dept.'s [Critical Language Scholarship](https://clscholarship.org/) is - don't worry, you're not alone...
 ---
+
 
 ### Ok, so what _is_ the Critical Language Scholarship?
 

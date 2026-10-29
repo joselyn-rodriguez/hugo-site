@@ -1,9 +1,11 @@
 ---
 title: "Winter storm 2023 academic website tutorial using Hugo"
 date: 2023-01-16T18:49:47-05:00
+description: "How to make a website powered by Hugo"
+keywords: [ "Blog", "resources", 'website']
 draft: false
+summary: How to make a website using Hugo. First step, read this post.
 ---
-
 
 ### Pre-requisites
 

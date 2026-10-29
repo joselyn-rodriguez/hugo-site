@@ -1,113 +1,92 @@
-title = "joselyn rodriguez"
-baseURL = "https://joselynrodriguez.com"
-theme = "cactus"
-copyright = "jmr" # cactus will use title if copyright is not set
+# The following line is needed
+# when running the example site
+# from a subdir of the theme
 
-# summaryLength = 2
+title = "Joselyn Rodriguez"
+theme = "not-much"
+baseURL = "https://example.org/"
+copyright = "Sample custom notice © {year}"
 
-# Main menu which appears below site header.
-[[menu.main]]
-name = "home"
-url = "/"
-weight = 1
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
-[[menu.main]]
-name = "research"
-url = "/research/research"
-weight = 2
-
-[[menu.main]]
-name = "blog"
-url = "/posts"
-weight = 3
-
-[[menu.main]]
-name = "cv"
-url = "/files/cv.pdf"
-weight = 4
-
-[[menu.main]]
-name = "misc"
-url = "/music/misc/"
-weight = 5
+[languages]
+  [languages.en]
+    languageName = "English"
+    locale = "en"
+    weight = 1
+    [languages.en.params.giscus]
+    language = "en"
+  [languages.it]
+    languageName = "Italiano"
+    locale = "it"
+    weight = 2
+    [languages.it.params.giscus]
+    language = "it"
 
 [markup]
-  [markup.tableOfContents]
-    endLevel = 4
-    ordered = false
-    startLevel = 2
   [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = false
-    noClasses = true
-    style = "dracula"
-    tabWidth = 4
+    style = 'dracula'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
+theme = "auto"
+palette = "eink"
+showThemeNotice = true
+showPostsSummary = true
 
-  colortheme = "classic" # dark, light, white, or classic
-  rss = true # generate rss feed. default value is false
-  googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
-  showAllPostsArchive = false # default
+# Giscus Comment System
+[params.giscus]
+repository = "username/repository"
+repositoryId = "repositoryId"
+categoryName = "categoryName"
+categoryId = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
+# language = "en" is configured directly under languages.<languageCode>.params.giscus
+lazyLoading = true
 
-  # Home page settings
-  description = """
-
-  Hi, I'm a postdoctoral research fellow in the Department of Linguistics at the University of Michigan.
+# Navigation
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "home"
+    title = "Home"
+    url = "/"
+    weight = 1
   
-  I completed my PhD in Neuroscience and Cognitive Science at the University of Maryland in the Department of Linguistics and was advised by [Dr. Naomi Feldman](http://users.umiacs.umd.edu/~nhf/) and [Dr. Bill Idsardi](https://wjidsardi.net/). 
-
-  My research focuses on understanding speech perception and learning. I use whatever methods I feel are suited for the task at hand, which has thus far included behavioral experiments and computational modeling. 
-
-  The questions that interest me most are those surrounding the structure of representations and learning, specifically as they relate to sound. What is the structure of phonological representations, how are they learned, and and how do they change with exposure to new languages? I think that second language acquisition and bilingualism provide an exciting test case to evaluate these questions. 
   
-  I was lucky to complete my PhD with a fantastic linguistics cohort. You can find them here: [Katherine Howitt](https://www.katherinehowitt.com/research), Jingyi Chen, [London Dixon](https://www.londondixon.com/) , Fëdor Golosov, Zulfiyya Aghakishiyeva.
+  [[menu.main]]
+    identifier = "about"
+    title = "About"
+    url = "/about"
+    weight = 2
   
-  """ 
-  
-  mainSection = "posts" # your main section
-  mainSectionTitle = "..."
-  showAllPostsOnHomePage = false # default
-  postsOnHomePage = 0 # this option will be ignored if showAllPostsOnHomePage is set to true
-  tagsOverview = true # show tags overview by default.
-  showProjectsList = false # show projects list by default (if projects data file exists).
+  [[menu.main]]
+    identifier = "research"
+    name = "research"
+    title = "research"
+    url = "/research"
+    weight = 3
 
-#   projectsUrl = "https://github.com/gohugoio" # title link for projects list
+  [[menu.main]]
+    identifier = "posts"
+    title = "posts"
+    url = "/posts"
+    weight = 4
 
-  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
-  dateFormat = "2006-01-02" # default
-
-  # Post page settings
-  show_updated = true # default
-  showReadTime = true # default
-
-  [params.comments]
-    enabled = false # default
-    engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
-    [params.comments.utterances]
-      repo = "<github_username>/<github_reponame>"
-      label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
-      theme = "github-light"
-    [params.comments.cactuscomments]
-      siteName = "your_cactus_comments_sitename" # see https://cactus.chat/ on how to register your site name
-      #serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
-      #serverName = "" # Defaults to cactus.chat
-
-  # the value of name should be an valid font awesome icon name (brands type)
-  # https://fontawesome.com/icons?d=gallery&s=brands
-  [[params.social]]
+  [[menu.main]]
+    identifier = "github"
     name = "github"
-    link = "https://github.com/joselyn-rodriguez"
-  [[params.social]]
-    name = "linkedin"
-    link = "https://www.linkedin.com/in/joselyn-rodriguez/"
-  [[params.social]]
-    name = "email"
-    link = "joselynr@umich.edu"  # no need for "mailto:" in the heads
-  [[params.social]]
-    name = "spotify"
-    link = "https://open.spotify.com/user/cho_seul_lin?si=ba2c72321e1948e7"
+    title = "GitHub"
+    url = "https://github.com/joselyn-rodriguez"
+    weight = 5
+  
+  [[menu.main]]
+    identifier = "cv"
+    name = "cv"
+    title = "cv"
+    url = "/files/cv.pdf"
+    weight = 6

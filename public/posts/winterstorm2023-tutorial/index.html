@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html >
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="http://localhost:1313/favicon.ico" />
+<meta property="og:url" content="http://localhost:1313/posts/winterstorm2023-tutorial/">
+	<meta property="og:site_name" content="Joselyn Rodriguez">
+	<meta property="og:title" content="Winter storm 2023 academic website tutorial using Hugo">
+	<meta property="og:description" content="How to make a website powered by Hugo">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2023-01-16T18:49:47-05:00">
+		<meta property="article:modified_time" content="2023-01-16T18:49:47-05:00">
+
+<title>Joselyn Rodriguez | Winter storm 2023 academic website tutorial using Hugo</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+  
+      <link rel="stylesheet" href="/css/palette/eink.css">
+
+      <script src="/js/main.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+  
+<body
+>
+  
+  <main>
+    
+  <div class="container pt-5">
+    <div class="row mt-5 pt-5">
+      
+
+
+  <nav aria-label="breadcrumb" class="
+    small
+    navbar
+    navbar-dark
+    navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleMenu" aria-controls="collapsibleMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mt-3 mt-md-0" id="collapsibleMenu">
+      <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/"
+        
+      >home</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/about"
+        
+      >about</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/research"
+        
+      >research</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/posts"
+        class="text-decoration-underline link-offset-3"
+        
+      >posts</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="https://github.com/joselyn-rodriguez"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/files/cv.pdf"
+        
+      >cv</a>
+      
+    </li>
+      </ol>
+    </div>
+  </nav>
+
+    </div>
+    <div class="post">
+      <header class="mb-4">
+        <h1 class="text-uppercase">Winter storm 2023 academic website tutorial using Hugo</h1>
+        
+        
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item small">
+              
+              <time datetime="2023-01-16T18:49:47-05:00">January 16, 2023</time>
+            </li>
+            
+            
+            <li class="breadcrumb-item small">
+              10 minutes
+            </li>
+          </ol>
+        </div>
+      </header>
+      
+      <article>
+        <h3 id="pre-requisites">Pre-requisites</h3>
+<ol>
+<li>need homebrew installed (for Mac)
+<ol>
+<li>need to install Hugo</li>
+</ol>
+</li>
+<li>(optionally need to make a netlify account)</li>
+<li>need a github account</li>
+</ol>
+<h3 id="setting-things-up-locally">Setting things up locally:</h3>
+<ul>
+<li>
+<p>Follow the quickstart guide to get a site up and running quickly: <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a> (written again below)</p>
+<ul>
+<li>create the site using the commands below</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site <span style="color:#ff79c6">{</span>site name<span style="color:#ff79c6">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">cd</span> <span style="color:#ff79c6">{</span>site name<span style="color:#ff79c6">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>git init
+</span></span></code></pre></div><ul>
+<li>This is what our directory will look like</li>
+</ul>
+<p><img src="/images/Screen_Shot_2023-01-13_at_10.39.12_AM.png" alt="Screen Shot 2023-01-13 at 10.39.12 AM.png"></p>
+<ul>
+<li>we can start our local server right away so we can see changes as we make them. In your terminal in the main directory of your folder, type</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><ul>
+<li>this will start your local server so we can see our changes as we make them. Go to your local server (generally it&rsquo;s just http://localhost:1313/) (it should be a blank page for now!)</li>
+</ul>
+<p><img src="/images/Screen_Shot_2023-01-16_at_7.24.05_PM.png" alt="Screen Shot 2023-01-16 at 7.24.05 PM.png"></p>
+</li>
+<li>
+<p>let’s take a closer look at the config.toml file</p>
+<ul>
+<li>in your main directory, type the following to open the file in your terminal.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nano config.toml
+</span></span></code></pre></div><ul>
+<li>We can see the file below. This file shows us the main information for our site so far. The config file will contain the paramters for our website which will be very important. Generally themes will make heavy use of the parameters in this file. Read more about it here: <a href="https://gohugo.io/getting-started/configuration/">https://gohugo.io/getting-started/configuration/</a></li>
+<li><code>baseURL</code> refers to the URL for the site. This will change when we update our url for github pages</li>
+<li><code>languageCode</code> refers to the language of the site (Hugo has support for many different languages)</li>
+<li><code>title</code> should be pretty self-explanatory.</li>
+<li>these parameters can be accessed anywhere else in your website which is why most themes will make heavy use of this file.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">baseURL</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;http://example.org&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">languageCode</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;en-us&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">title</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;My New Hugo Site&#39;</span>
+</span></span></code></pre></div></li>
+<li>
+<p>There’s not really much in here yet, so we’ll add to it. First we need a theme.</p>
+<ul>
+<li>Find one you like here: <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></li>
+<li>I will be using <a href="https://github.com/hugcis/hugo-astatine-theme/">this one</a> (and suggest you use the same, but feel free to use another one if you&rsquo;re up for the challenge)</li>
+<li>once you&rsquo;ve picked a theme, type the following line in your command prompt replacing the necessary blanks with your theme information:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#6272a4"># adding the theme as a submodule is super important! It won&#39;t work correctly if you don&#39;t do it this way!</span>
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/<span style="color:#ff79c6">{</span>your-theme<span style="color:#ff79c6">}</span> themes/<span style="color:#ff79c6">{</span>name of theme<span style="color:#ff79c6">}</span>
+</span></span></code></pre></div><ul>
+<li>This adds in the theme as a <em>submodule</em> of your current repository. This means that you&rsquo;re telling github where to find the repository you want without actually copying all the information into your own repository (handy!)</li>
+<li>Now we can add in the theme information to our config file with the following line of code in the terminal.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#6272a4"># take a look inside this config file!</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;theme = &#39;{name of theme}&#39;&#34;</span> &gt;&gt; config.toml
+</span></span></code></pre></div><ul>
+<li>let&rsquo;s go ahead and open the file itself again using (you can also open all this in a text editor)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nano config.toml
+</span></span></code></pre></div><ul>
+<li>we&rsquo;ll see the following lines now:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">baseURL</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;https://joselyn-rodriguez.github.io/winterstorm2023-site/&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">languageCode</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;en-us&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">title</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;Winter Storm 2023 academic website tutorial&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">theme</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;astatine&#39;</span> <span style="color:#6272a4"># you&#39;ll see your theme name!</span>
+</span></span></code></pre></div><ul>
+<li>before it&rsquo;ll work, we need to add one more line (for use with github pages). add the following line to this file below theme:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">publishDir</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;docs&#39;</span> <span style="color:#6272a4"># this line is important for github pages!</span>
+</span></span></code></pre></div></li>
+<li>
+<p>Theme specifics</p>
+<ul>
+<li>
+<p>You have to take a close look at the instructions for the theme that you want to use, different themes make use of different ways of putting a site together.</p>
+<ul>
+<li>what is necessary in the config file? Generally the theme instructions will tell you. Here, we&rsquo;re told to look at the <a href="https://github.com/hugcis/hugo-astatine-theme/blob/master/exampleSite/config.toml/">example config file</a> (copied below)</li>
+<li>we only need to copy from line 14 down.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#6272a4"># This is the configuration file for the example website of the Hugo theme</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># Astatine (see https://github.com/hugcis/hugo-astatine-theme).</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># The URL from which the site will be served</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">baseurl</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;https://hugcis.github.io/hugo-astatine-theme/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># Language used</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">languageCode</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;en-us&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># Website title</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">title</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;Astatine Theme&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># Theme used</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">theme</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;hugo-astatine-theme&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4">###### FROM HERE DOWN IS WHAT WE NEED ###### </span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">preserveTaxonomyNames</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">rssLimit</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">10</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">paginate</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">10</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># Code highlighting</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">pygmentsCodefences</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">pygmentsStyle</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;native&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># Taxonomies (only tags and categories are supported out of the box but you can</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># add more)</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">[</span>taxonomies<span style="color:#ff79c6">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">category</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;categories&#34;</span>  
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">tag</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;tags&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># Configure permalinks style</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">[</span>permalinks<span style="color:#ff79c6">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">post</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;/:slug/&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">page</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;/:slug/&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># Configure main navbar links. They can have a weight to select the order.</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># This links to content within the content/post/ folder</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">[[</span>menu.main<span style="color:#ff79c6">]]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">name</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;Posts&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">url</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;/post/&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">weight</span> <span style="color:#ff79c6">=</span> -150
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># This links to the page about.md</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">[[</span>menu.main<span style="color:#ff79c6">]]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">name</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;About&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">url</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;/about/&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">weight</span> <span style="color:#ff79c6">=</span> -110
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># Make the tags and categories pages accessible directly from the navbar.</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">[[</span>menu.main<span style="color:#ff79c6">]]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">name</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;Tags&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">url</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;/tags/&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">weight</span> <span style="color:#ff79c6">=</span> -120
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">[[</span>menu.main<span style="color:#ff79c6">]]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">name</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;Categories&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">url</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;/categories/&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">weight</span> <span style="color:#ff79c6">=</span> -130
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># Site wide params and SEO</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">[</span>params<span style="color:#ff79c6">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># Site description. Individual pages can have descriptions too but if</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># missing it will fallback to that one.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">description</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;&#34;&#34;The homepage of Astatine. This website is a demo the of the \
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">    Hugo theme Astatine.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># Author of the site</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">authorName</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;Jack Harkness&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># Main image for the author. This will be the default image for SEO.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">[</span>params.imgname<span style="color:#ff79c6">]</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">name</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;img/main.jpg&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># Add an alt description for the image</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">alt</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;Profile picture&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># Indicate if you host Katex yourself. Defaults to using the CDN KaTex.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># hostedKaTex = false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># Optional: add a twitter handle and mastodon handle for SEO.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># [params.twitter]</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># name = &#34;@Jack_harkness&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># [params.mastodon]</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># name = &#34;@jkharkness&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># host = &#34;mastodon.social&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># Enable link to feed in footer</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">blogrss</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># Enable pingback and webmention via webmention.io</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># webmention = &#34;hugocisneros.com&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># Sitemap location (default is /sitemap.xml)</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">[</span>sitemap<span style="color:#ff79c6">]</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">filename</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;sitemap.xml&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p>This site is still missing some things though. If you look in content, nothing is there yet! The theme instructions tell us we need to add in an index page.</p>
+</li>
+<li>
+<p>navigate to the content folder and create a new file there using</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>touch _index.md
+</span></span></code></pre></div><ul>
+<li>
+<p>in Hugo, files that start with &ldquo;_&rdquo; are special files that are generally used as a index page for a given set of pages (or like a sort of landing page). This theme uses it to display our main content page but every content folder will have it&rsquo;s one <code>_index.md</code> file.</p>
+</li>
+<li>
+<p>while we&rsquo;re here, let&rsquo;s also make ourselves a posts folder by typing and adding an _index.md file with front mattter parameter of title=posts</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir posts
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">cd</span> posts
+</span></span><span style="display:flex;"><span>touch _index.md
+</span></span></code></pre></div><ul>
+<li>
+<p>Once you created the <code>_index.md</code> file using <code>touch</code> populate the file with the following <a href="https://raw.githubusercontent.com/hugcis/hugo-astatine-theme/master/exampleSite/content/_index.md">content</a>:</p>
+</li>
+<li>
+<p>Notice the three <code>---</code> lines in the file enclosing some content. This is indicating that it is yaml front matter, special metadata, embedded inside of the content file. This content isn&rsquo;t necessarily displayed on the page unless it is being called somewhere else in the html files (which it is! in this file in your directory: themes/astatine/layouts/partials/info.html)</p>
+</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;head container grid sm:grid-cols-2 grid-cols-1
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            justify-around flex-wrap items-center&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#50fa7b">itemscope</span> <span style="color:#50fa7b">itemtype</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;http://schema.org/Person&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;picture p-8 max-w-[80%] mx-auto basis-20 grow shrink&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#50fa7b">itemscope</span> <span style="color:#50fa7b">itemtype</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;http://schema.org/ImageObject&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#ff79c6">picture</span>&gt;
+</span></span><span style="display:flex;"><span>            {{ if .Params.ImgOther }}
+</span></span><span style="display:flex;"><span>            {{ range .Params.ImgOther }}
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#ff79c6">source</span> <span style="color:#50fa7b">srcset</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;{{ .name }}&#34;</span>{{ <span style="color:#50fa7b">if</span> .<span style="color:#50fa7b">type</span> }} <span style="color:#50fa7b">type</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;{{ .type }}&#34;</span>{{ <span style="color:#50fa7b">end</span> }}&gt;
+</span></span><span style="display:flex;"><span>            {{ end }}
+</span></span><span style="display:flex;"><span>            {{ end }}
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#ff79c6">source</span> <span style="color:#50fa7b">srcset</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;{{ .Site.Params.imgname.Name }}&#34;</span>
+</span></span><span style="display:flex;"><span>                    {{ <span style="color:#50fa7b">if</span> .<span style="color:#50fa7b">Site</span>.<span style="color:#50fa7b">Params</span>.<span style="color:#50fa7b">imgname</span>.<span style="color:#50fa7b">Type</span> }} <span style="color:#50fa7b">type</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;{{ .Site.Params.Imgname.Type }}&#34;</span>{{ <span style="color:#50fa7b">end</span> }}&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#ff79c6">img</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;main-image u-photo mx-auto&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#50fa7b">itemprop</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;contentUrl&#34;</span> <span style="color:#50fa7b">alt</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;{{ .Site.Params.Imgname.Alt }}&#34;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#50fa7b">src</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;{{ .Site.Params.imgname.Name }}&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#ff79c6">picture</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#ff79c6">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;mx-4 ml-8 basis-60 grow shrink-2 leading-snug text-base&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#ff79c6">a</span>  <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;u-url font-bold&#34;</span> <span style="color:#50fa7b">rel</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;me&#34;</span> <span style="color:#50fa7b">itemprop</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;url&#34;</span> <span style="color:#50fa7b">href</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;{{ .Permalink }}&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#ff79c6">h1</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;text-black dark:text-zinc-300 p-name border-0&#34;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#50fa7b">itemprop</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;name&#34;</span>&gt;{{ .Params.Name }}
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#ff79c6">h1</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#ff79c6">a</span>&gt;
+</span></span><span style="display:flex;"><span>        {{ if .Params.sameas }}
+</span></span><span style="display:flex;"><span>        {{ range .Params.sameas }}
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#ff79c6">link</span> <span style="color:#50fa7b">href</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;{{ . }}&#34;</span> <span style="color:#50fa7b">rel</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;me&#34;</span> <span style="color:#50fa7b">itemprop</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;sameAs&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        {{ end }}
+</span></span><span style="display:flex;"><span>        {{ end }}
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#ff79c6">h2</span> <span style="color:#50fa7b">itemprop</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;jobTitle&#34;</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;text-xl my-0 border-none&#34;</span>&gt;{{ .Params.Personal_title }}&lt;/<span style="color:#ff79c6">h2</span>&gt;
+</span></span><span style="display:flex;"><span>            {{range .Params.Address }}
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">itemprop</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;address&#34;</span> <span style="color:#50fa7b">itemscope</span> <span style="color:#50fa7b">itemtype</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;http://schema.org/PostalAddress&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#ff79c6">span</span> <span style="color:#50fa7b">itemprop</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;streetAddress&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                {{ .name }}
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#ff79c6">br</span>&gt;
+</span></span><span style="display:flex;"><span>                {{ .street }}
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#ff79c6">span</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#ff79c6">br</span>&gt;
+</span></span><span style="display:flex;"><span>            {{ with .postal_code }}&lt;<span style="color:#ff79c6">span</span> <span style="color:#50fa7b">itemprop</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;postalCode&#34;</span>&gt;{{ . }}&lt;/<span style="color:#ff79c6">span</span>&gt;{{ end }}
+</span></span><span style="display:flex;"><span>            {{ with .locality }}&lt;<span style="color:#ff79c6">span</span> <span style="color:#50fa7b">itemprop</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;addressLocality&#34;</span>&gt;{{ . }}&lt;/<span style="color:#ff79c6">span</span>&gt;{{ end }}
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#ff79c6">br</span>&gt;
+</span></span><span style="display:flex;"><span>            {{ with .email }}
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#ff79c6">a</span> <span style="color:#50fa7b">href</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;mailto:{{ . }}&#34;</span>&gt;{{ . }}&lt;/<span style="color:#ff79c6">a</span>&gt;
+</span></span><span style="display:flex;"><span>            {{ end }}
+</span></span><span style="display:flex;"><span>            {{ with .emailimg }}
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#ff79c6">picture</span>&gt;
+</span></span><span style="display:flex;"><span>                {{ if .dark }}
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#ff79c6">source</span> <span style="color:#50fa7b">srcset</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;{{ .dark }}&#34;</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;email&#34;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#50fa7b">alt</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;Email screenshot&#34;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#50fa7b">media</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;(prefers-color-scheme: dark)&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                {{ end }}
+</span></span><span style="display:flex;"><span>                {{ if .light }}
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#ff79c6">img</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;email h-5 inline&#34;</span> <span style="color:#50fa7b">src</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;{{ .light }}&#34;</span> <span style="color:#50fa7b">alt</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;Email screenshot&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                {{ end }}
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#ff79c6">picture</span>&gt;
+</span></span><span style="display:flex;"><span>            {{ end }}
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#ff79c6">br</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#ff79c6">div</span>&gt;
+</span></span><span style="display:flex;"><span>            {{ end }}
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#ff79c6">div</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#ff79c6">div</span>&gt;
+</span></span></code></pre></div><ul>
+<li>
+<p>If you want to change the pictures, you just need to add some new pics in the <code>static/</code> folder and then update the link in the <code>_index.md</code> file!</p>
+</li>
+<li>
+<p>to make new posts, you can go to your main directory then type</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/<span style="color:#ff79c6">{</span>name of post<span style="color:#ff79c6">}</span>.md
+</span></span></code></pre></div></li>
+<li>
+<p>all the posts are going to be written in markdown. You can refer to any <a href="https://www.markdownguide.org/basic-syntax/">markdown guide</a></p>
+<ul>
+<li>you can set <code>draft = true</code> if you don&rsquo;t want to publish pages immediately</li>
+<li>use any text editor to edit these files (textedit, vscode)</li>
+</ul>
+</li>
+<li>
+<p>In general, every theme is going to be different since people use different methods.</p>
+<ul>
+<li>For example, some things you might see:
+<ul>
+<li>different CSS packages (using bootstrap, tailwindcss, etc) which will require additional downloads and preparation on your part.</li>
+</ul>
+</li>
+<li>Take a look at the example site and understand the structure that the creator of the site has established
+<ul>
+<li>you’ll likely need to have index files for each of the main subfolders defining the landing page for that section
+<ul>
+<li>in the main folder: config.toml</li>
+<li>in the content folder: _index.md</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>when you’re ready to build your static pages that will be hosted, you will run the following code to build our html files to host on github.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo <span style="color:#6272a4"># yes that&#39;s all!</span>
+</span></span></code></pre></div><ul>
+<li>once everything is run and you’re ready to launch the site, you proceed to the next step which is preparing your github page.</li>
+</ul>
+<h4 id="thing-to-note">Thing to note</h4>
+<ul>
+<li>to add a cv as a link in the nav, go to your <code>config.toml</code> file and instead of directing to a local directory (like /page/ or /about/), just direct it to your static file in static/files/cv.pdf (but only include <code>/files/cv.pdf</code> since you don&rsquo;t need to include the &ldquo;static&rdquo;)</li>
+</ul>
+<p><em>for example</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[[menu.main]]
+</span></span><span style="display:flex;"><span>name = <span style="color:#f1fa8c">&#34;cv&#34;</span>
+</span></span><span style="display:flex;"><span>url = <span style="color:#f1fa8c">&#34;/files/cv.pdf&#34;</span>
+</span></span><span style="display:flex;"><span>weight = <span style="color:#bd93f9">3</span>
+</span></span></code></pre></div><ul>
+<li>everything on this site is editable. You downloaded a theme, but there&rsquo;s nothing stopping you from editing that theme. Don&rsquo;t like the colors? the fonts? the arrangement of the site? go crazy!</li>
+</ul>
+<h3 id="setting-up-the-github-pages-host">Setting up the github pages host:</h3>
+<ul>
+<li>
+<p>assuming that you have a github account set up, create a new repository.</p>
+<ul>
+<li>
+<p>if you’d like to use your username, then you should name the repository the same as your username but any repository name will work</p>
+<p><img src="/images/Screen_Shot_2023-01-15_at_9.26.33_PM.png" alt="Screen Shot 2023-01-15 at 9.26.33 PM.png"></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Once you’ve done this, there are still a few things left to do before your site is live</p>
+<ul>
+<li>First, we need to deal with the action command in order for Github to know how to build the site correctly.
+<ul>
+<li>Copy this file into the main folder of your site: <a href="https://github.com/joselyn-rodriguez/winterstorm2023-site/blob/master/.github/workflows/hugo.yml">https://github.com/joselyn-rodriguez/winterstorm2023-site/blob/master/.github/workflows/hugo.yml</a>
+<ul>
+<li>Replace the branch on line 6 with whatever branch you’re launching from (probably main)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>After that, we need to setup our github pages and activate it on this repo.</p>
+<ul>
+<li>
+<p>Go to settings, below &ldquo;code and automation&rdquo;, click on “Pages”</p>
+<p><img src="/images/Screen_Shot_2023-01-15_at_9.34.34_PM.png" alt="Screen Shot 2023-01-15 at 9.34.34 PM.png"></p>
+<ul>
+<li>Under “Branch” choose the branch that you pushed to (it will either be main or master) and then choose “docs” as the folder that the site is built from.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>now we can actually push our files to github</p>
+<ul>
+<li>add this repository as the remote origin to your local repository by following the “create a new repository on the command line”.
+<ul>
+<li>in the repository of your new site, type the following:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#f1fa8c">&#34;first commit!&#34;</span>
+</span></span><span style="display:flex;"><span>git branch -M main
+</span></span><span style="display:flex;"><span>git remote add origin <span style="color:#ff79c6">{</span>whatever your git repo is<span style="color:#ff79c6">}</span>
+</span></span><span style="display:flex;"><span>git push -u origin main
+</span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p>Once that is set, you can check whether it launched correctly by clicking on the link for your page</p>
+<p><img src="/images/Screen_Shot_2023-01-15_at_9.40.48_PM.png" alt="Screen Shot 2023-01-15 at 9.40.48 PM.png"></p>
+</li>
+</ul>
+<h3 id="other-things">Other things!</h3>
+<ul>
+<li>
+<p>Getting your domain name!</p>
+<ul>
+<li>there are lots of places to get a domain name
+<ul>
+<li><a href="https://www.godaddy.com/">godaddy</a></li>
+<li><a href="https://www.domain.com/">domain</a></li>
+<li><a href="https://domains.google/">google</a></li>
+<li><a href="https://www.bluehost.com/">bluhost</a> (i used this one!)</li>
+<li><a href="https://www.netlify.com/">netlify</a></li>
+<li><a href="https://www.cheapnames.com/">cheapnames</a></li>
+<li><a href="https://www.namecheap.com/">namecheap</a></li>
+<li><a href="https://www.dreamhost.com/">dreamhost</a></li>
+<li>and so many more</li>
+</ul>
+</li>
+<li>Once you get it, you gotta head to the <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site/">github documentation</a> to get it setup in github pages (and don&rsquo;t forget to change your hugo site&rsquo;s <code>config.toml</code> file baseURL parameter)</li>
+</ul>
+</li>
+<li>
+<p>more advanced hugo-ing.</p>
+<ul>
+<li>
+<p>templating is a powerful tool that you can use to start customizing your website (and building your own themes)</p>
+<ul>
+<li><a href="https://gohugo.io/templates/introduction/">https://gohugo.io/templates/introduction/</a></li>
+<li><a href="https://cloudcannon.com/community/learn/hugo-beginner-tutorial/">https://cloudcannon.com/community/learn/hugo-beginner-tutorial/</a>
+<ul>
+<li>this is a whole tutorial but goes into templating nicely</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>more on templating syntax</p>
+<ul>
+<li><a href="https://gohugo.io/variables/">https://gohugo.io/variables/</a></li>
+<li><a href="https://gohugo.io/functions/">https://gohugo.io/functions/</a></li>
+</ul>
+</li>
+<li>
+<p>deploying hugo on different sites</p>
+<ul>
+<li><a href="https://gohugo.io/hosting-and-deployment/">https://gohugo.io/hosting-and-deployment/</a>
+<ul>
+<li>I use and highly recommend using netlify</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>examples of phd website using certain themes:</p>
+<ul>
+<li>congo: <a href="https://themes.gohugo.io/themes/congo/">https://themes.gohugo.io/themes/congo/</a>
+<ul>
+<li><a href="https://antoinesoetewey.com/cv/">https://antoinesoetewey.com/cv/</a></li>
+<li><a href="https://rohn.tech/">https://rohn.tech/</a>
+<ul>
+<li>github: <a href="https://github.com/KevinRohn/KevinRohn.github.io">https://github.com/KevinRohn/KevinRohn.github.io</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+      </article>
+      
+
+      <div class="row">
+    <div class="col-md">
+        
+        <a href="/posts/resources/">
+            <span>previous: </span>
+            <span>Resources</span>
+        </a>
+        
+    </div>
+    <div class="col-md text-md-end">
+        
+    </div>
+</div>
+      
+    </div>
+  </div>
+  
+    <footer>
+      <div class="container mt-4 pb-1">
+    <p class="small opacity-75">
+        Sample custom notice © 2026
+        
+        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
+        
+    </p>
+</div>
+
+    </footer>
+  
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    function detectThemePreferences() {
+      let themeClasses = ["text-dark"];
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          themeClasses = ["text-light", "dark"];
+      }
+      document.body.classList.add(...themeClasses);
+    }
+
+    detectThemePreferences();
+  </script>
+
+  
+
+</body>
+</html>

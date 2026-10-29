@@ -1,7 +1,10 @@
 ---
 title: "Resources"
 date: 2019-10-21T12:17:15-04:00
+description: "Some useful resources (updated periodically)"
+keywords: [ "Blog", "resources"]
 draft: false
+summary: Resources for speech and language-focused cognitive scientists (and linguists)
 ---
 
 ### Resources for speech and language-focused cognitive scientists!

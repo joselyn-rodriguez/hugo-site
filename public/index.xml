@@ -1,30 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>joselyn rodriguez</title>
-    <link>https://joselynrodriguez.com/</link>
-    <description>Recent content on joselyn rodriguez</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>jmr</copyright>
-    <lastBuildDate>Mon, 21 Oct 2019 12:17:15 -0400</lastBuildDate><atom:link href="https://joselynrodriguez.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Resources</title>
-      <link>https://joselynrodriguez.com/posts/resources/</link>
-      <pubDate>Mon, 21 Oct 2019 12:17:15 -0400</pubDate>
-      
-      <guid>https://joselynrodriguez.com/posts/resources/</guid>
-      <description>Resources for speech and language-focused cognitive scientists! The following is a list of various resources I&amp;rsquo;ve collected over the years. This is mainly for my own reference, but please don&amp;rsquo;t hesitate to contact me should any of these links no longer work or if you have additional questions.
-Statistics  Hadley Wickham&amp;rsquo;s &amp;ldquo;R for Data Science&amp;rdquo;, a course in R and the tidyverse, is a definite must as a quick (not necessarily painless) introduction to statistics with R.</description>
-    </item>
-    
-    <item>
-      <title>What is the Critical Language Scholarship</title>
-      <link>https://joselynrodriguez.com/posts/cls-exp/</link>
-      <pubDate>Fri, 18 Oct 2019 10:56:06 -0400</pubDate>
-      
-      <guid>https://joselynrodriguez.com/posts/cls-exp/</guid>
-      <description>Ok, so what is the Critical Language Scholarship? If you&amp;rsquo;re here and you don&amp;rsquo;t know what the U.S. State Dept.&amp;rsquo;s Critical Language Scholarship is - don&amp;rsquo;t worry, you&amp;rsquo;re not alone. The CLS is a language scholarship that&amp;rsquo;s offered by the U.S. State Department for students (undergraduate or graduate) to study a foreign language in a foreign country where that language is spoken. Since this is a government-funded program, it&amp;rsquo;s not too surprising that the languages offered are &amp;ldquo;critical&amp;rdquo; in the diplomatic sense - Arabic, Hindi, Urdu, Punjabi, Russian, Azerbaijani, Chinese, etc).</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Joselyn Rodriguez</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Joselyn Rodriguez</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+			<copyright>Sample custom notice © {year}</copyright>
+		
+		
+			<lastBuildDate>Mon, 22 May 2023 15:20:08 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>misc</title>
+				<link>http://localhost:1313/music/misc/</link>
+				<pubDate>Mon, 22 May 2023 15:20:08 +0000</pubDate>
+				<guid>http://localhost:1313/music/misc/</guid>
+				<description>&lt;p&gt;Outside of research, I spend most of my time on music: exploring local venues and bands and getting involved with whatever radio stations are around.&lt;/p&gt;&#xA;&lt;p&gt;At the University of Maryland, I was part of the student run radio station, &lt;a href=&#34;https://wmuc.umd.edu/&#34;&gt;WMUC 90.5&lt;/a&gt; where I hosted the show &lt;em&gt;shut up and listen&lt;/em&gt; where I played experimental electronica and electronic and synt pop from around the world.&lt;/p&gt;&#xA;&lt;p&gt;Take a listen to their current programing here: &lt;a href=&#34;https://wmuc.umd.edu/listen&#34;&gt;WMUC-FM College Park 90.5FM&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Winter storm 2023 academic website tutorial using Hugo</title>
+				<link>http://localhost:1313/posts/winterstorm2023-tutorial/</link>
+				<pubDate>Mon, 16 Jan 2023 18:49:47 -0500</pubDate>
+				<guid>http://localhost:1313/posts/winterstorm2023-tutorial/</guid>
+				<description>How to make a website using Hugo. First step, read this post.</description>
+			</item>
+			<item>
+				<title>Resources</title>
+				<link>http://localhost:1313/posts/resources/</link>
+				<pubDate>Mon, 21 Oct 2019 12:17:15 -0400</pubDate>
+				<guid>http://localhost:1313/posts/resources/</guid>
+				<description>Resources for speech and language-focused cognitive scientists (and linguists)</description>
+			</item>
+			<item>
+				<title>What is the Critical Language Scholarship</title>
+				<link>http://localhost:1313/posts/cls-exp/</link>
+				<pubDate>Fri, 18 Oct 2019 10:56:06 -0400</pubDate>
+				<guid>http://localhost:1313/posts/cls-exp/</guid>
+				<description>If you&amp;rsquo;re here and you don&amp;rsquo;t know what the U.S. State Dept.&amp;rsquo;s &lt;a href=&#34;https://clscholarship.org/&#34;&gt;Critical Language Scholarship&lt;/a&gt; is - don&amp;rsquo;t worry, you&amp;rsquo;re not alone&amp;hellip;</description>
+			</item>
+	</channel>
 </rss>
