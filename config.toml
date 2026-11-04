@@ -5,7 +5,7 @@
 title = "Joselyn Rodriguez"
 theme = "not-much"
 baseURL = "https://example.org/"
-copyright = "Sample custom notice © {year}"
+copyright = "Joselyn Rodriguez © {2026}"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
