@@ -33,7 +33,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
 theme = "auto"
-palette = "eink"
+palette = "default"
 showThemeNotice = true
 showPostsSummary = true
 

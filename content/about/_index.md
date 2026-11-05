@@ -4,13 +4,10 @@ date = 2024-12-16T11:30:04+01:00
 draft = false
 +++
 
----
-<p align="center">
+
+<!-- <p align="center">
 <img src="/images/headshot.png" alt="drawing" width="200"/>
-</p>
-
-
-
+</p> -->
 
   My research focuses on understanding speech perception and learning. I use whatever methods I feel are suited for the task at hand, which has thus far included behavioral experiments and computational modeling. 
 
@@ -20,4 +17,3 @@ draft = false
 
   I was lucky to have completed my PhD with a fantastic linguistics cohort. You can find them here: [Katherine Howitt](https://www.katherinehowitt.com/research), Jingyi Chen, [London Dixon](https://www.londondixon.com/) , Fëdor Golosov, Zulfiyya Aghakishiyeva.
   
----

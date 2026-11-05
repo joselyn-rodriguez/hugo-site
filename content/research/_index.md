@@ -4,7 +4,7 @@ date = 2024-12-16T11:30:04+01:00
 draft = false
 +++
 
----
+
 
 #### <u>Publications</u>
 
@@ -19,8 +19,6 @@ MA, USA. Cascadilla Press
 Barrios, S. L., **Rodriguez, J. M.**, & Barriuso, T. A. (2022) The acquisition of L2 allophonic variants: The role of phonological distribution and lexical cues. Second Language Research. https://doi.org/10.1177/02676583221099237
 
 <br>
-
----
 
 #### unpublished manuscripts
 
